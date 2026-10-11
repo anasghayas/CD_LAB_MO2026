@@ -1,0 +1,10 @@
+Rule 2 used : INT = 258 seen
+Rule 4 used : First Identifier is count and ID is 259
+Rule 3 used: Next Identifier is _my_sum and ID is 259
+Rule 3 used: Next Identifier is x and ID is 259
+Rule 1 used : Input parsed successfully 
+Rule 2 used : INT = 258 seen
+Rule 4 used : First Identifier is var1 and ID is 259
+Rule 3 used: Next Identifier is var2 and ID is 259
+Rule 3 used: Next Identifier is var3 and ID is 259
+Rule 1 used : Input parsed successfully 

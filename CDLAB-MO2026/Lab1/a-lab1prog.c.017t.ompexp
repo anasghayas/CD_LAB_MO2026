@@ -1,0 +1,137 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=3174, cgraph_uid=1, symbol_order=0)
+
+int main ()
+{
+  int k;
+  int x[11];
+  int k;
+  int j;
+  int i;
+  int d;
+  int c;
+  int b;
+  int a;
+  int D.3207;
+
+  <bb 2> :
+  x[0] = 10;
+  x[1] = 20;
+  x[2] = 30;
+  x[3] = 40;
+  x[4] = 50;
+  x[5] = 60;
+  x[6] = 70;
+  x[7] = 80;
+  x[8] = 90;
+  x[9] = 100;
+  x[10] = 110;
+  k = 0;
+  goto <bb 17>; [INV]
+
+  <bb 3> :
+  a = 2;
+  b = 3;
+  c = 40;
+  d = 5;
+  i = 0;
+  goto <bb 8>; [INV]
+
+  <bb 4> :
+  a = a + 1;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  a = a * b;
+  _1 = i + 1;
+  _2 = x[_1];
+  _3 = d + _2;
+  x[i] = _3;
+  c = b * 10;
+
+  <bb 6> :
+  _4 = i % 2;
+  if (_4 == 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  a = a * b;
+  d = c * c;
+  _5 = x[i];
+  _6 = i + -1;
+  _7 = x[_6];
+  _8 = i + d;
+  _9 = _8 % 11;
+  _10 = _5 + _7;
+  x[_9] = _10;
+  i = i + 2;
+
+  <bb 8> :
+  if (i <= 10)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 9> :
+  if (a <= 1)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 13>; [INV]
+
+  <bb 10> :
+  j = 1;
+  goto <bb 12>; [INV]
+
+  <bb 11> :
+  _11 = x[j];
+  _12 = _11 + 5;
+  x[j] = _12;
+  j = j + 1;
+
+  <bb 12> :
+  if (j <= 10)
+    goto <bb 11>; [INV]
+  else
+    goto <bb 16>; [INV]
+
+  <bb 13> :
+  _13 = x[5];
+  _14 = d + _13;
+  x[5] = _14;
+  goto <bb 15>; [INV]
+
+  <bb 14> :
+  a = a + 1;
+  b = b + 1;
+
+  <bb 15> :
+  _15 = a + b;
+  if (_15 > 10)
+    goto <bb 14>; [INV]
+  else
+    goto <bb 16>; [INV]
+
+  <bb 16> :
+  k = k + 1;
+
+  <bb 17> :
+  if (k <= 9)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 18>; [INV]
+
+  <bb 18> :
+  _16 = x[7];
+  printf (" a = %d x[7] = %d d = %d\n", a, _16, d);
+  D.3207 = 0;
+  x = {CLOBBER(eol)};
+
+  <bb 19> :
+<L19>:
+  return D.3207;
+
+}
+
+

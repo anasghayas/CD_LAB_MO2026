@@ -1,0 +1,3 @@
+ syntax error  Line number 1 near symbol  
+Rule 2 used : INT = 258 seen
+ syntax error  Line number 1 near symbol , 

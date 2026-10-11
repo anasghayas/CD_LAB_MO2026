@@ -1,0 +1,4 @@
+int i, j;
+char comma, _semicolon;
+float pi, g, comma;
+int i, j;

@@ -1,0 +1,4 @@
+short a, b, b;  
+short b;   
+int x  a ; 
+short a1, b1, a1, x; 

@@ -1,0 +1,44 @@
+Protocol for the Compiler Design Laboratory Course
+Read this document and follow them strictly for the entire duration of the laboratory.
+1. Assignment problems and accompanying handouts, if any, will be shared with the students a day in advance of
+the schedule. You are expected to read the document(s) and come prepared with the requisite skills.
+2. Summary of the work to be done during a session, in terms of how, where and what to submit at the close of
+the session, will be communicated in the assignment sheet and must be followed.
+3. The objective of each session, in terms of the resources needed, the theoretical concepts that are reinforced,
+the specific skills that are acquired, are mentioned in the assignment. This information should help a student to
+measure her/his learning incrementally as the course proceeds.
+4. Programs are to be written in C, compiled with gcc, and executed under the Linux Operating system. You will
+learn two powerful software tools, Lex and Yacc as part of this laboratory course.
+5. Each student will be assigned separate login on a server. You are required to set a password and remember the
+same for the semester. Choosing a password that can not be easily guessed is the responsibility of the student.
+Sharing of password is PROHIBITED. Two or more students, if found to access other’s resources (files /
+folders), will be held equally responsible and face disciplinary action.
+5. You are NOT PERMITTED to access the area of another student for ANY REASON whatsoever. Violation
+can be easily detected and will be treated as UFM (Use of Unfair Means) according to institute norms.
+6. You are NOT permitted to use internet, either institute’s or your own, during the session. Make sure that your
+MOBILES ARE SWITCHED OFF. If there is a need to access msteams, the faculty will inform you about the
+way to do so.
+7. DO NOT copy programs from any source, either that of your friend or from a s/w such as ChatGPT. This
+applies to all programs written by you, whether in C, lex-scripts or yacc-scripts during the day to day
+performance or for regular evaluations. Check for plagiarism of programs among students may be deployed by
+the faculty team, if the situation demands so.
+8. In case you wish to use your own laptop for the practicals, you must take prior approval from your concerned
+faculty. Ensure that the laptop is your own with both Linux and gcc and the compiler tools Lex and YACC
+installed.
+9. For each laboratory session, create a separate subdirectory, named as "submission" Working programs written
+by you along with outputs in the prescribed format are to be saved in this directory. In case there are more than
+one problem in the assignment sheet, appropriately name the programs and their outputs suffixed by the problem
+number.
+LAST, BUT NOT THE LEAST, PLEASE BE ASSURED THAT A STUDENT, WHO USES MEANS / SHORT
+CUTS, OTHER THAN WRITING HER / HIS OWN PROGRAMS, WILL BE THE EVENTUAL LOSER.
+LACK OF PROGRAMMING SKILLS ARE EASILY DETECTED BY YOUR FACULTY AND YOUR
+POTENTIAL EMPLOYERS AND THE CONSEQUENCES ARE OBVIOUS.
+Faculty Group
+Compiler Design Lab
+MO 2026
+
+Dated : July 29, 2026
+
+CD/MO2026/Information & Protocol for Conduct of Lab/1
+
+

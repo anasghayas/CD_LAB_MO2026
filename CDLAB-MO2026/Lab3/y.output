@@ -1,0 +1,112 @@
+Grammar
+
+    0 $accept: decl $end
+
+    1 decl: type list ';'
+
+    2 type: INT
+
+    3 list: list ',' ID
+    4     | ID
+
+
+Terminals, with rules where they appear
+
+    $end (0) 0
+    ',' (44) 3
+    ';' (59) 1
+    error (256)
+    INT (258) 2
+    ID (259) 3 4
+
+
+Nonterminals, with rules where they appear
+
+    $accept (7)
+        on left: 0
+    decl (8)
+        on left: 1
+        on right: 0
+    type (9)
+        on left: 2
+        on right: 1
+    list (10)
+        on left: 3 4
+        on right: 1 3
+
+
+State 0
+
+    0 $accept: • decl $end
+
+    INT  shift, and go to state 1
+
+    decl  go to state 2
+    type  go to state 3
+
+
+State 1
+
+    2 type: INT •
+
+    $default  reduce using rule 2 (type)
+
+
+State 2
+
+    0 $accept: decl • $end
+
+    $end  shift, and go to state 4
+
+
+State 3
+
+    1 decl: type • list ';'
+
+    ID  shift, and go to state 5
+
+    list  go to state 6
+
+
+State 4
+
+    0 $accept: decl $end •
+
+    $default  accept
+
+
+State 5
+
+    4 list: ID •
+
+    $default  reduce using rule 4 (list)
+
+
+State 6
+
+    1 decl: type list • ';'
+    3 list: list • ',' ID
+
+    ';'  shift, and go to state 7
+    ','  shift, and go to state 8
+
+
+State 7
+
+    1 decl: type list ';' •
+
+    $default  reduce using rule 1 (decl)
+
+
+State 8
+
+    3 list: list ',' • ID
+
+    ID  shift, and go to state 9
+
+
+State 9
+
+    3 list: list ',' ID •
+
+    $default  reduce using rule 3 (list)

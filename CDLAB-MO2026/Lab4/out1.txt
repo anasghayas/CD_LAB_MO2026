@@ -1,0 +1,6 @@
+Rule 2 used : INT = 258 seen
+Rule 4 used : First Identifier is count and ID is 259
+Rule 3 used: Next Identifier is _my_sum and ID is 259
+Rule 3 used: Next Identifier is x and ID is 259
+Rule 1 used : Input parsed successfully 
+ syntax error  Line number 1 near symbol  

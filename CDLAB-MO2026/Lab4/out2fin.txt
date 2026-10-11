@@ -1,0 +1,17 @@
+Data type is int 
+First Identifier is i
+Next Identifier is  j
+1 Declaration statements parsed successfully 
+Data type is char 
+First Identifier is comma
+Next Identifier is  _semicolon
+2 Declaration statements parsed successfully 
+Data type is float 
+First Identifier is pi
+Next Identifier is  g
+Next Identifier is  comma
+3 Declaration statements parsed successfully 
+Data type is int 
+First Identifier is i
+Next Identifier is  j
+4 Declaration statements parsed successfully 

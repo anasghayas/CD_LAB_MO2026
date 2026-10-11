@@ -1,0 +1,15 @@
+Reclaration Error : b already declared as short
+Reclaration Error : b already declared as short
+Conflicting Reclaration Error : a earlier as short now as double
+Reclaration Error : a1 already declared as short
+Conflicting Reclaration Error : x earlier as double now as short
+Number of declaration statements =  4
+ Display Contents of Symbol Table 
+Index 	Name 	Type 	Size 	|Symbols|/offset
+ [0] 	global 	symtab	16 	4
+ [1] 	a 	short	2 	0
+ [2] 	b 	short	2 	2
+ [3] 	x 	double	8 	4
+ [4] 	a1 	short	2 	12
+ [5] 	b1 	short	2 	14
+Space for symbol table: 16 bytes

@@ -1,0 +1,190 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=3174, cgraph_uid=1, symbol_order=0)
+
+
+Analyzing function body size: main/0
+		Accounting address calculation.
+		Accounting address calculation.
+		Accounting address calculation.
+		Accounting address calculation.
+		Accounting address calculation.
+		Accounting address calculation.
+		Accounting address calculation.
+
+IPA function summary for main/0
+  global time:     76.000000
+  self size:       68
+  global size:     68
+  min size:       0
+  self stack:      0
+  global stack:    0
+    size:61.000000, time:62.000000
+    size:2.000000, time:0.000000,  executed if:(not inlined)
+  calls:
+    printf/1 function body not available
+      freq:1.00 loop depth: 0 size: 5 time: 14
+
+int main ()
+{
+  int k;
+  int x[11];
+  int k;
+  int j;
+  int i;
+  int d;
+  int c;
+  int b;
+  int a;
+  int D.3207;
+  int _1;
+  int _2;
+  int _3;
+  int _4;
+  int _5;
+  int _6;
+  int _7;
+  int _8;
+  int _9;
+  int _10;
+  int _11;
+  int _12;
+  int _13;
+  int _14;
+  int _15;
+  int _16;
+  int _51;
+
+  <bb 2> :
+  x[0] = 10;
+  x[1] = 20;
+  x[2] = 30;
+  x[3] = 40;
+  x[4] = 50;
+  x[5] = 60;
+  x[6] = 70;
+  x[7] = 80;
+  x[8] = 90;
+  x[9] = 100;
+  x[10] = 110;
+  k_47 = 0;
+  goto <bb 17>; [INV]
+
+  <bb 3> :
+  a_53 = 2;
+  b_54 = 3;
+  c_55 = 40;
+  d_56 = 5;
+  i_57 = 0;
+  goto <bb 8>; [INV]
+
+  <bb 4> :
+  a_65 = a_18 + 1;
+  goto <bb 6>; [INV]
+
+  <bb 5> :
+  a_70 = a_17 * b_54;
+  _1 = i_27 + 1;
+  _2 = x[_1];
+  _3 = d_25 + _2;
+  x[i_27] = _3;
+  c_72 = b_54 * 10;
+
+  <bb 6> :
+  # a_17 = PHI <a_65(4), a_70(5)>
+  # c_23 = PHI <c_24(4), c_72(5)>
+  _4 = i_27 % 2;
+  if (_4 == 1)
+    goto <bb 5>; [INV]
+  else
+    goto <bb 7>; [INV]
+
+  <bb 7> :
+  a_66 = a_17 * b_54;
+  d_67 = c_23 * c_23;
+  _5 = x[i_27];
+  _6 = i_27 + -1;
+  _7 = x[_6];
+  _8 = i_27 + d_67;
+  _9 = _8 % 11;
+  _10 = _5 + _7;
+  x[_9] = _10;
+  i_69 = i_27 + 2;
+
+  <bb 8> :
+  # a_18 = PHI <a_53(3), a_66(7)>
+  # c_24 = PHI <c_55(3), c_23(7)>
+  # d_25 = PHI <d_56(3), d_67(7)>
+  # i_27 = PHI <i_57(3), i_69(7)>
+  if (i_27 <= 10)
+    goto <bb 4>; [INV]
+  else
+    goto <bb 9>; [INV]
+
+  <bb 9> :
+  if (a_18 <= 1)
+    goto <bb 10>; [INV]
+  else
+    goto <bb 13>; [INV]
+
+  <bb 10> :
+  j_61 = 1;
+  goto <bb 12>; [INV]
+
+  <bb 11> :
+  _11 = x[j_28];
+  _12 = _11 + 5;
+  x[j_28] = _12;
+  j_63 = j_28 + 1;
+
+  <bb 12> :
+  # j_28 = PHI <j_61(10), j_63(11)>
+  if (j_28 <= 10)
+    goto <bb 11>; [INV]
+  else
+    goto <bb 16>; [INV]
+
+  <bb 13> :
+  _13 = x[5];
+  _14 = d_25 + _13;
+  x[5] = _14;
+  goto <bb 15>; [INV]
+
+  <bb 14> :
+  a_59 = a_19 + 1;
+  b_60 = b_22 + 1;
+
+  <bb 15> :
+  # a_19 = PHI <a_18(13), a_59(14)>
+  # b_22 = PHI <b_54(13), b_60(14)>
+  _15 = a_19 + b_22;
+  if (_15 > 10)
+    goto <bb 14>; [INV]
+  else
+    goto <bb 16>; [INV]
+
+  <bb 16> :
+  # a_20 = PHI <a_18(12), a_19(15)>
+  k_64 = k_29 + 1;
+
+  <bb 17> :
+  # a_21 = PHI <a_48(D)(2), a_20(16)>
+  # d_26 = PHI <d_49(D)(2), d_25(16)>
+  # k_29 = PHI <k_47(2), k_64(16)>
+  if (k_29 <= 9)
+    goto <bb 3>; [INV]
+  else
+    goto <bb 18>; [INV]
+
+  <bb 18> :
+  _16 = x[7];
+  printf (" a = %d x[7] = %d d = %d\n", a_21, _16, d_26);
+  _51 = 0;
+  x ={v} {CLOBBER(eol)};
+
+  <bb 19> :
+<L19>:
+  return _51;
+
+}
+
+

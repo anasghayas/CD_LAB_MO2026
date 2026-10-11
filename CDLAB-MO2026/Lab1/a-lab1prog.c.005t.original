@@ -1,0 +1,84 @@
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int a;
+  int b;
+  int c;
+  int d;
+  int i;
+  int j;
+  int k;
+  int x[11] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110};
+
+    int a;
+    int b;
+    int c;
+    int d;
+    int i;
+    int j;
+    int k;
+    int x[11] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110};
+  {
+    int k = 0;
+
+        int k = 0;
+    goto <D.3202>;
+    <D.3201>:;
+    a = 2;
+    b = 3;
+    c = 40;
+    d = 5;
+    i = 0;
+    goto <D.3193>;
+    <D.3192>:;
+    a++ ;
+    goto <D.3190>;
+    <D.3191>:;
+    a = a * b;
+    x[i] = x[i + 1] + d;
+    c = b * 10;
+    <D.3190>:;
+    if (i % 2 == 1) goto <D.3191>; else goto <D.3189>;
+    <D.3189>:;
+    a = a * b;
+    d = c * c;
+    x[(i + d) % 11] = x[i] + x[i + -1];
+    i = i + 2;
+    <D.3193>:;
+    if (i <= 10) goto <D.3192>; else goto <D.3187>;
+    <D.3187>:;
+    if (a <= 1)
+      {
+        j = 1;
+        goto <D.3197>;
+        <D.3196>:;
+        x[j] = x[j] + 5;
+        j++ ;
+        <D.3197>:;
+        if (j <= 10) goto <D.3196>; else goto <D.3194>;
+        <D.3194>:;
+      }
+    else
+      {
+        x[5] = x[5] + d;
+        goto <D.3199>;
+        <D.3200>:;
+        a++ ;
+        b++ ;
+        <D.3199>:;
+        if (a + b > 10) goto <D.3200>; else goto <D.3198>;
+        <D.3198>:;
+      }
+    k++ ;
+    <D.3202>:;
+    if (k <= 9) goto <D.3201>; else goto <D.3185>;
+    <D.3185>:;
+  }
+  printf ((const char * restrict) " a = %d x[7] = %d d = %d\n", a, x[7], d);
+  return 0;
+}
+return 0;
+
